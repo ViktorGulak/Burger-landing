@@ -462,7 +462,21 @@ flex: 1;
         gap: 50px
     }
 
-    
+    .footer {
+        padding: 60px 0;
+    }
+
+    .footer > .container{
+        display: block;
+        position: relative;
+    }
+
+   .footer_contacts{
+       align-items: center;
+   }
+   .footer_navigate-wrapper{
+        margin-top: 45px;
+   }
 }
 
 @media (max-width: 850px) {
@@ -491,6 +505,10 @@ flex: 1;
     }
     .order_text-wrapper{
         margin-right: auto;
+    }
+
+    .feedback > .container{
+        gap: 50px;
     }
 }
 
